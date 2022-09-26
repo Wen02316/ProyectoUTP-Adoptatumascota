@@ -1,0 +1,12 @@
+ .bg-login-image{
+    background: url("../img/adopta.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: 0px;
+}
+
+.sizeDiv{
+    width: 40vw;
+}
