@@ -1,12 +1,238 @@
- .bg-login-image{
-    background: url("../img/adopta.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
-    border: 0px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: none;
 }
 
-.sizeDiv{
-    width: 40vw;
+#BODY {
+    background:  #ccffff;
 }
+
+/*-------------------------------INICIO HEADER------------------------*/
+.logo{
+    height: 75px;
+    width: 400px;
+    padding-top: 0px;
+    margin-top: 0px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo-nav-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.header{
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    padding:0px 0px;
+    z-index: 10;
+    background-color: deepskyblue ;
+    list-style: none;
+    color: beige;
+
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding:10px 13px;
+    transition: all 0.4s linear;
+    border-radius: 6px;
+    color: bisque;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.navigation ul li a:hover{
+    background:  activecaption;
+}
+    
+.cta{
+    padding: 15px 24px;
+    border-radius: 30px;
+    background-color: firebrick;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.cont {
+    text-decoration: none;
+}
+
+/*--------------------------------FIN HEADER*/
+/*--------------------------------INICIO SLOGAN ANIMADO*/
+
+.section{
+    width: 100%;
+    margin-botton:50px;
+}
+
+.banner{
+    margin-top: 50px;
+}
+
+.contenedor_SyM_img{
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------------- FIN SLOGAN ANIMADO*/
+
+/*--------------------------------INICIO ENCUENTRA TU MASCOTA*/
+
+#titulo_encuentra{
+    text-align: center;
+    padding:20px 0px;
+    color:  black;
+    font-family: "Verdana";
+      
+    
+}
+
+#parrafo_encuntra{
+    margin-left: 20px;
+    margin-right: 50px;
+    text-align: justify;
+    color: black;
+}
+
+#encuentra_tu_mascota{
+    width: 100%;
+    display: flex;
+    flex-direction:  column;
+    color: #fff;
+    position: static;
+    justify-content: center;
+    margin-left: 80px;
+}
+#div_tit_encuentra{
+    margin-right: 100px;
+    margin-top: 25px;
+}
+#img_encuentra_masc{
+    width:550px;
+    height:300px;
+    margin-right:150px;
+}
+#encuentra_tu_mascota_seccion2{
+    display: flex;
+    margin-left:40px;
+}
+#div_parr_encu{
+    text-align:left;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+/*-----------------------------NUESTRA HISTORIA INICIO ------------------------------*/
+#nuestra_historia{
+   
+    background:  burlywood;
+    width: 100%;
+    display: flex;
+    flex-direction:  column;
+    
+    position: static;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+#div_tit_his{
+    margin-left: 50px;
+    
+}
+#titulo_historias{
+    text-align: center;
+    padding:40px 0px;
+    color:  black;
+    font-family: "Verdana";
+}
+
+#img_nustra_hist{
+    width:500px;
+    height:350px;
+    margin-left:80px;
+    padding: 0px 0px;
+}
+
+#nuestra_historia_seccion2{
+    display: flex;
+    margin-right: 80px;
+    padding: 40px 15px;
+
+}
+
+#div_parr_his{
+    text-align:right;
+
+}
+
+#parrafo_historias{
+    margin-left: 50px;
+    margin-right: 10px;
+    text-align: justify;
+    color: black;
+    padding: 40px 0px;
+}
+
+
+/*-----------------------------NUESTRA HISTORIA FINAl ------------------------------*/
+
+/*-----------------------------CARRUCEL INICIO ------------------------------*/
+.titulo_carrusel{
+    text-align: center;
+    padding:40px 0px;
+    color:  black;
+    font-family: "Verdana";
+
+}
+
+.container-m5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body {
+    width:270px;
+    height: 220px;
+}
+
+
+/*-----------------------------CARRUCEL FIN ------------------------------*/

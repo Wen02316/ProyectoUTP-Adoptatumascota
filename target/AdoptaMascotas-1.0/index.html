@@ -1,16 +1,164 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Adopta tu mascota</title>
+        <title>ADOPTA TU MASCOTA</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- estilos locales -->
+
+        <link href="css/index.css" rel="stylesheet">
+        <script src="js/index-inicio.js"></script>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="whatsapp.css">
+
+        <!-- ANIMACION CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+        <!-- estilos externos -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- link referencia para unir con querys de javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
         <link rel="icon" href="img/mascotas.png"/>
     </head>
-    <body>
-        <h1>Hello World!</h1>
+    <body id="BODY" >
+        <header class="header">
+            <!-- iNICIO-->
+            <div class="container logo-nav-contain">
+                <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
+                <nav class="navigation">
+                    <ul >
+                        <li><a >Inicio</a></li>
+                        <li><a >Sobre nosotros</a></li>
+                        <li><a >Adopta</a></li>
+                        <li><a class="cont" href="contact.html">Contacto</a></li>                
+                        <li><a class="cta" href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Fin ESTRUCTURA HEADER -->
+        </header>
+
+
+        <!--------------------------------------INICIO IMAGEN ANIMADA/SLOGAN-------------------------------------------- -->
+        <section id="baner">
+            <div id="contenedor_SyM_img">
+                <img id="img_slogan" class="contact-wrapper animated bounceInUp" src="img/slide1.jpg">                
+            </div>
+
+        </section>
+        <!-- -----------------------------------FIN IMAGEN ANIMADA/SLOGAN-------------------------------------------- -->
+
+        <!-- -----------------------------------INICIO ENCUENTRA TU MASCOTA-------------------------------------------- -->
+        <main>
+            <article id="encuentra_tu_mascota">
+                <section id="encuentra_tu_mascota_seccion1">
+                    <div id="div_tit_encuentra" >
+                        <h2 id="titulo_encuentra" class="section_titulo">ENCUENTRA TU MASCOTA IDEAL</h2>
+                    </div>
+                </section>
+                <section id="encuentra_tu_mascota_seccion2">
+
+                    <div id="div_parr_encu">
+                        <p id="parrafo_encuntra">Nos entusiasma saber que estas pensando en adoptar, son muchos los animales que 
+                            necesitan tu ayuda. Mascotas abandonadas, heridas o maltratadas están a la espera de una casa de acogida 
+                            que les quiera. Si te comprometes a ser un buen dueño y estás decidido a adoptar puedes iniciar proceso 
+                            con nosotros, nuestros pequeños amigos son entregados en óptimas condiciones de salud y belleza a adoptantes 
+                            responsables y amorosos. 
+                            En esta página conocerás nuestro proceso y requisitos, lo primero es conocer al que deseas adoptar, encuentralos 
+                            más adelante.
+                        </p>
+                    </div>
+
+                    <div>                                         
+                        <img id="img_encuentra_masc" src="img/encuentramascota.jpg" alt=""/>
+
+                    </div>
+                </section>
+            </article>
+            <!-- -----------------------------------FIN ENCUENTRA TU MASCOTA-------------------------------------------- -->
+
+
+
+            <!-- -----------------------------------INICIO NUESTRA HISTORIA-------------------------------------------- -->
+            <article id="nuestra_historia"> 
+
+                <section id="nuestra_historia_seccion1">
+                    <div id="div_tit_his" >
+                        <h2 id="titulo_historias" class="section_titulo">NUESTRA HISTORIA</h2>
+                    </div>
+                </section>
+                <section id="nuestra_historia_seccion2">
+                    <div>                    
+                        <img id="img_nustra_hist" src="img/nuestrahistoria.jpg" />                                       
+                    </div>
+                    <div id="div_parr_his">
+                        <p id="parrafo_historias" class="section_parrafo">La idea de crear esta pagina web nace al darnos cuenta que en las calles de nuestras ciudades 
+                            se ve mucho el abandono de mascotas en las mismas; Y aunque existen entidades que se encargan de buscarles un nuevo hogar a estos animalitos
+                            esta lavor es vastante compleja, pues muchas veces no se le encuentra un hogar en su ubicacion o sus alrededores.
+                            ¿Como se podria enterar gente de otras ciudades de estas oportunidades de adopcon?
+                            La mejor opcion para esto seria LOGICAT donde nos encargamos de mostrar una gran variedad de peluditos que se encuentran en adopcion,
+                            en diferentes partes del pais.
+                            Si te intereza conocernos mas puedes encontrarnos en nestras redes sociales. 
+                        </p>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <!-- -----------------------------------FIN NUESTRA HISTORIA-------------------------------------------- -->
+
+        <!-- -----------------------------------INICIO CARRUCEL-------------------------------------------- -->
+        <section id="section_carrucel">
+            <br><!-- comment -->
+            <br>
+            <center><h1 id="titulo_carrucel">ADOPTA UN AMIGO</h1></center>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-4">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/carrusel1.jpeg" width=300 height=250 class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Caramelo</h5>
+                                <p class="card-text">Soy un perrito muy juguetón y cariñoso, de aproximadamente 1 año, soy muy hogareño</p>
+                                <a href="#" class="btn btn-primary">Adoptame</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/carrusel2.jpeg" width=300 height=250 class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bruno</h5>
+                                <p class="card-text"> Soy muy tranquilo y merezco una segunda oportunidad.</p>
+                                <br>
+
+                                <a href="#" class="btn btn-primary">Adoptame</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/carrusel3.jpeg" width=300 height=250 class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bombón</h5>
+                                <p class="card-text">Busca un hogar seguro, parte de la familia y que me quieran mucho. Soy cariñosa y muy linda, tímida al principio.</p>
+                                <a href="#" class="btn btn-primary">Adoptame</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </section>
+        <!-- -----------------------------------FIN CARRUCEL-------------------------------------------- -->
+       
     </body>
 </html>
